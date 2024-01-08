@@ -1,0 +1,262 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFF8F9;
+    padding: 0;
+    margin: 0;
+}
+
+.divprinc {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1100px;
+}
+
+.busca {
+    float: left;
+    text-align: left;
+}
+
+.titulo {
+    font-family: Amazone BT;
+    text-align: center;
+    color: #82c567;
+    box-shadow: 0 0 1em #82c567;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.subt {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#E53250;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.imgs{
+    text-align: center;
+}
+
+.descricao{
+    font-family: fantasy ;
+    text-align: center;
+    font-size: 25px;
+    color: #babbbe;
+}
+
+
+.preco{
+    font-family: Amazone BT;
+    text-align: center;
+    font-size: 25px;
+    color: #bd001f;
+}
+
+.divfooter{
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    color: #E53250;
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+main {
+    height: 80vh;
+}
+
+footer {
+    color: var(--color-neutral-40);
+    background-color: #000000;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color:var(--color-neutral-40) ;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#twitter {
+    background-color: #0e0c0c;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    position: center;
+    display: flex;
+    line-height: 40px;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 380px;
+    background-color: #000000;
+    color: #f8f8f8;
+    list-style: none;
+    
+}
+
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    position: right;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: var(--color-neutral-30);
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover {
+    opacity: 0.8;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}
+
+    html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    }
+
+    #wrapper{
+    min-height: 100%;
+    position: relative;
+    }
+
+    div.body-content{
+    padding-bottom: 100px;
+    }
+
+    
+.logoroxa{
+    text-align: center;
+}
+   
